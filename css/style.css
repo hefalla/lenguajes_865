@@ -1,15 +1,24 @@
 body{
-    background-color: burlywood;
+    background-image:url(../images/gato.png);
+    /* background-size: cover; */
+    background-attachment: fixed;
+    background-position: 900px 50px;
+    background-color: rgb(226, 117, 28);
+    background-repeat: no-repeat;
 }
 
-h2{
+h1, h2{
     text-align: center;
-    font-size: 80px;
+    color: #000000;
 }
 
 p{
     text-align: justify;
-    color: black;
+    background-color: rgba(255, 228, 196, 1);
+}
+
+p, table, a{
+    color:#000000;
 }
 
 table{
@@ -19,4 +28,10 @@ table{
 
 img{
     width: 300px;
+}
+
+div{
+    width: 50%;
+    background: #FFFFFF;
+    margin: 0 auto;
 }
